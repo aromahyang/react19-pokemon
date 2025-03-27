@@ -1,6 +1,7 @@
 import { useState, useTransition } from "react";
 import fetch from "~/api";
 import { POKEMON_API_URL } from "~/api/constants";
+import { Button, Input } from "~/components/ui";
 
 export default function Page() {
   const [id, setId] = useState<number | null>(null);
@@ -26,9 +27,9 @@ export default function Page() {
     <div>
       <h2>useTransition()</h2>
       <p>id를 입력하여 정보 가져오기</p>
-      <form onSubmit={handleSubmit}>
-        <input type="number" onChange={handleInputChange} />
-        <button type="submit">Submit</button>
+      <form className="flex" onSubmit={handleSubmit}>
+        <Input type="number" onChange={handleInputChange} />
+        <Button type="submit">Submit</Button>
       </form>
       <div>
         <p>pending 여부: {isPending ? "true" : "false"}</p>
