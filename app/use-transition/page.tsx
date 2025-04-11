@@ -53,6 +53,12 @@ export default function Page() {
         React가 특정 상태 업데이트를 즉시 처리하지 않고, 우선순위가 낮은
         작업으로 간주하여 처리할 수 있게 해준다.
         <br />
+        입력값이 바뀔 때 API 호출을 (2번씩) 하지만, 두 번째 API 호출은 즉시
+        처리되지 않고 우선순위가 낮은 작업으로 간주되어 결과값이 즉시 반영되지
+        않는다.
+        <br />
+        <br />
+        ⚠️ input의 onChange는 사용자 입력에 의해 동기로 동작하기 때문에 startTransition()을 사용해도 비동기로 동작하지 않는다.
       </p>
       <h3 className="mt-4 font-bold text-xl">
         id를 입력하여 포켓몬 이름 보여주기
