@@ -10,7 +10,9 @@
     "shadcn": "npx shadcn@latest add"
   },
   "dependencies": {
-    "@radix-ui/react-slot": "^1.1.2",
+    "@hookform/resolvers": "^5.0.1",
+    "@radix-ui/react-label": "^2.1.3",
+    "@radix-ui/react-slot": "^1.2.0",
     "@react-router/node": "^7.4.0",
     "@react-router/serve": "^7.4.0",
     "axios": "^1.8.4",
@@ -20,9 +22,11 @@
     "lucide-react": "^0.484.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-hook-form": "^7.55.0",
     "react-router": "^7.4.0",
     "tailwind-merge": "^3.0.2",
-    "tw-animate-css": "^1.2.4"
+    "tw-animate-css": "^1.2.4",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
     "@react-router/dev": "^7.4.0",
