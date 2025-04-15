@@ -8,7 +8,7 @@ import {
 export default [
   index("routes/home.tsx"),
   layout("./components/layout.tsx", [
-    route("use-transition", "routes/use-transition.tsx"),
-    route("use-deferred-value", "routes/use-deferred-value.tsx"),
+    route("hooks/use-transition", "routes/hooks/use-transition.tsx"),
+    route("hooks/use-deferred-value", "routes/hooks/use-deferred-value.tsx"),
   ]),
 ] satisfies RouteConfig;
