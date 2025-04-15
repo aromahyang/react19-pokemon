@@ -11,5 +11,6 @@ export default [
     route("hooks/use-transition", "routes/hooks/use-transition.tsx"),
     route("hooks/use-deferred-value", "routes/hooks/use-deferred-value.tsx"),
     route("hooks/use-action-state", "routes/hooks/use-action-state.tsx"),
+    route("components/suspense", "routes/components/suspense.tsx"),
   ]),
 ] satisfies RouteConfig;

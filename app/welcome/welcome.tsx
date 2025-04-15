@@ -8,6 +8,7 @@ export function Welcome() {
         <a href="/hooks/use-transition">Go to useTransition</a>
         <a href="/hooks/use-deferred-value">Go to useDeferredValue</a>
         <a href="/hooks/use-action-state">Go to useActionState</a>
+        <a href="/components/suspense">Go to Suspense</a>
       </div>
       <div className="flex-1 flex flex-col items-center gap-16 min-h-0">
         <header className="flex flex-col items-center gap-9">
